@@ -1,0 +1,38 @@
+.container-contato {
+  text-align: center;
+  align-items: center;
+  margin-top: 30px;
+
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+}
+
+.text-area-img {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 8rem;
+  gap: 50px;
+  margin-bottom: 50px;
+
+  section {
+    p {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.redes-area {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 8rem;
+
+  section {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+  }
+}

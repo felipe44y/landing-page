@@ -8,17 +8,28 @@ function Navbar() {
   return (
     <nav className="nav">
       <ul>
-        <Link to="/" style={{ textDecoration: "none", color: "white" }}>
+        <Link
+          to="/"
+          style={{ textDecoration: "none", color: "white", fontSize: "1.5rem" }}
+        >
           HOME
         </Link>
-        <Link to="/contato" style={{ textDecoration: "none", color: "white" }}>
+        <span style={{ fontSize: "2rem" }}>|</span>
+        <Link
+          to="/contato"
+          style={{ textDecoration: "none", color: "white", fontSize: "1.5rem" }}
+        >
           QUEM SOMOS
         </Link>
-        <Link to="/denuncie" style={{ textDecoration: "none", color: "white" }}>
+        <span style={{ fontSize: "2rem" }}>|</span>
+        <Link
+          to="/denuncie"
+          style={{ textDecoration: "none", color: "white", fontSize: "1.5rem" }}
+        >
           DENUNCIE
         </Link>
       </ul>
-      <img src={<Mosquito />} />
+      <img width={60} height={60} src={Mosquito} />
     </nav>
   );
 }

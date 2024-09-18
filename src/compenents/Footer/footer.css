@@ -1,0 +1,29 @@
+.footer-ares {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 10px 10px 0px 10px;
+  position: absolute;
+  width: 100%;
+
+  p {
+    margin-bottom: 10px;
+  }
+}
+
+.footer-texts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.footer-copy {
+  p {
+    padding-top: 15px;
+    font-weight: bold;
+  }
+}
