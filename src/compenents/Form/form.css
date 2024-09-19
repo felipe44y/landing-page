@@ -1,0 +1,28 @@
+.area-form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 8rem;
+}
+.inputs-area {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+
+  label {
+    font-size: 1.3rem;
+  }
+
+  input {
+    max-width: 500px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+  }
+
+  textarea {
+    max-width: 500px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+  }
+}

@@ -50,12 +50,12 @@ function Home() {
         </p>
       </div>
 
-      <div className="container-alert-img">
-        <img src={Alert} />
-        <h1>ALERTA</h1>
-      </div>
+      <Title texto="ALERTA" tamanho="3rem" img={Alert} />
 
-      <Title texto="A dengue não tira férias. Previna-se o ano todo!" />
+      <Title
+        tamanho="2rem"
+        texto="A dengue não tira férias. Previna-se o ano todo!"
+      />
 
       <div className="area-alert">
         <img src={Vaso} />
@@ -84,7 +84,7 @@ function Home() {
         </section>
       </div>
 
-      <Title texto="Sintomas" />
+      <Title tamanho="2rem" texto="Sintomas" />
 
       <div className="container-sitomas">
         <div className="area-left">

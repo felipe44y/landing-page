@@ -11,22 +11,28 @@ function Navbar() {
         <Link
           to="/"
           style={{ textDecoration: "none", color: "white", fontSize: "1.5rem" }}
+          onMouseEnter={(e) => (e.target.style.color = "lightblue")}
+          onMouseLeave={(e) => (e.target.style.color = "white")}
         >
-          HOME
+          <p>HOME</p>
         </Link>
         <span style={{ fontSize: "2rem" }}>|</span>
         <Link
           to="/contato"
           style={{ textDecoration: "none", color: "white", fontSize: "1.5rem" }}
+          onMouseEnter={(e) => (e.target.style.color = "lightblue")}
+          onMouseLeave={(e) => (e.target.style.color = "white")}
         >
-          QUEM SOMOS
+          <p>QUEM SOMOS</p>
         </Link>
         <span style={{ fontSize: "2rem" }}>|</span>
         <Link
           to="/denuncie"
           style={{ textDecoration: "none", color: "white", fontSize: "1.5rem" }}
+          onMouseEnter={(e) => (e.target.style.color = "lightblue")}
+          onMouseLeave={(e) => (e.target.style.color = "white")}
         >
-          DENUNCIE
+          <p>DENUNCIE</p>
         </Link>
       </ul>
       <img width={60} height={60} src={Mosquito} />

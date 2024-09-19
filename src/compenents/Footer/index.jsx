@@ -1,8 +1,8 @@
 import "./footer.css";
 
-function Footer() {
+function Footer(props) {
   return (
-    <footer className="footer-ares">
+    <footer style={{ bottom: props.position }} className="footer-area">
       <section className="footer-texts">
         <p>
           <span>Rua</span>: Rua tal, numero tal, Russas - CE
@@ -14,6 +14,7 @@ function Footer() {
           <span>Telefone</span>: (88) 99876-5432
         </p>
       </section>
+
       <section className="footer-copy">
         <p>&copy; 2024 Minha Página.</p>
       </section>

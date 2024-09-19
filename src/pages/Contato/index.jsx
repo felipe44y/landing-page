@@ -14,8 +14,8 @@ function Contato() {
     <div>
       <Navbar />
       <div className="container-contato">
-        <h1>Equipe de combate</h1>
-        <Title texto="Em Russas a dengue não descansa!" />
+        <Title tamanho="3rem" texto="Equipe de Combate" />
+        <Title tamanho="2rem" texto="Em Russas a dengue não descansa!" />
       </div>
 
       <div className="text-area-img">
@@ -34,8 +34,11 @@ function Contato() {
         </section>
       </div>
 
-      <Title texto="Dúvidas?" />
-      <Title texto="Entre em contato conosco nas nossas redes sociais" />
+      <Title tamanho="2rem" texto="Dúvidas?" />
+      <Title
+        tamanho="2rem"
+        texto="Entre em contato conosco nas nossas redes sociais"
+      />
 
       <div className="redes-area">
         <section>
