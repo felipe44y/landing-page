@@ -41,6 +41,7 @@ function Form() {
           onChange={(e) => setDenuncia(e.target.value)}
           required
         />
+        <button className="btn-enviar">ENVIAR</button>
       </div>
     </form>
   );
